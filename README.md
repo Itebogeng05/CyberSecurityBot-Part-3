@@ -89,9 +89,6 @@ In Visual Studio:
 
 Search for `MySql.Data`, select it, and click **Install**.
 
-### Step 5 — Add Greeting Sound (Optional)
-Place a file named `greeting.wav` in the project folder. The app will automatically play it on startup.
-
 ---
 
 ## How to Run
