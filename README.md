@@ -166,6 +166,7 @@ CyberSecurityBot Part3/
 
 ## Author
 
-**Itebogeng**
+**Itebogeng Desia Kekana**
+**ST10480275
 CyberSecurity Awareness Bot — Part 3 (Academic Project)
 © 2026 The Independent Institute of Education
