@@ -6,7 +6,7 @@ A WPF desktop application built in C# that educates users on cybersecurity throu
 
 ## About the Project
 
-CSAB is a Cybersecurity Awareness Chatbot developed as Part 3 of a multi-part academic project. It builds on Parts 1 and 2 by adding a Task Manager with MySQL database integration, a cybersecurity quiz mini-game, an NLP simulation engine, and an Activity Log — all wrapped in a WhatsApp-style GUI using XAML and WPF.
+CSAB is a Cybersecurity Awareness Chatbot developed as Part 3 of a multi-part academic project. It builds on Parts 1 and 2 by adding a Task Manager with MySQL database integration, a cybersecurity quiz mini-game, an NLP simulation engine, and an Activity Log — all wrapped in an interactive chatbot GUI using XAML and WPF.
 
 ---
 
