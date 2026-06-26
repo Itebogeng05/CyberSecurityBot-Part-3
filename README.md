@@ -62,33 +62,6 @@ CSAB is a Cybersecurity Awareness Chatbot developed as Part 3 of a multi-part ac
 Download and install MySQL from:
 https://dev.mysql.com/downloads/installer/
 
-Choose **Developer Default** during setup and set a root password you'll remember.
-
-### Step 2 — Create the Database
-Open **MySQL Workbench**, connect to your local instance, and run:
-```sql
-CREATE DATABASE IF NOT EXISTS csab_db;
-```
-The app will automatically create the `Tasks` table on first launch.
-
-### Step 3 — Update the Connection String
-Open `MainWindow.xaml.cs` and find this line near the top:
-```csharp
-private const string ConnStr =
-    "Server=localhost;Database=csab_db;Uid=root;Pwd=;";
-```
-Replace `Pwd=` with your MySQL root password:
-```csharp
-private const string ConnStr =
-    "Server=localhost;Database=csab_db;Uid=root;Pwd=YourPasswordHere;";
-```
-
-### Step 4 — Install the NuGet Package
-In Visual Studio:
-> Tools → NuGet Package Manager → Manage NuGet Packages for Solution
-
-Search for `MySql.Data`, select it, and click **Install**.
-
 ---
 
 ## How to Run
